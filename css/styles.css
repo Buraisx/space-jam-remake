@@ -2,3 +2,7 @@
 h1{
 	color:blue;
 }
+footer{
+  bottom:0;
+  position:fixed;
+}
