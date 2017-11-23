@@ -8,4 +8,7 @@ h1{
 footer{
   bottom:0;
   position:absolute;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
