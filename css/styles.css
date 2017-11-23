@@ -1,14 +1,46 @@
 body{
   max-width:100%;
-  margin: auto;
+
+}
+iframe{
+  margin: 40px;
+  margin-top:20%;
+}
+div{
+  width:100vw;
+  height:100vh;
+  background-image: url("spacejam-bg.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+ul {
+  list-style-type: none;
+}
+img{
+  margin-top:20%;
+  z-index:999;
+  position: fixed;
+}
+nav{
+  margin-top:20%;
+  z-index:999;
+  position: fixed;
 }
 h1{
 	color:blue;
 }
 footer{
+  width:100%;
   bottom:0;
   position:absolute;
   text-align: center;
   background-color: black;
   color: white;
+}
+.container{
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
 }
